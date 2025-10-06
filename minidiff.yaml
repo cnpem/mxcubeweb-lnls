@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+class: DiffractometerMockup.DiffractometerMockup
+configuration:
+  chip_definition_file: chip_definition.json
+  exports: '["abort", "status", "my_fancy_function", "my_other_funny_function"]'
+  grid_direction: '{"fast": (0, 1), "slow": (1, 0), "omega_ref": 0}'
+  headType: MiniKappa
+  omega_reference: '{"motor_name": "phiz", "position":-0.2224, "camera_axis":"x"}'
+  phaseList: '["Transfer","Centring","BeamLocation", "DataCollection"]'
+  sample_mount_mode: sample_changer
+  username: diffractometer
+  zoomcentre: '{"x":340,"y":250}'

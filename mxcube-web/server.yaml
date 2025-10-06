@@ -1,0 +1,21 @@
+---
+
+server:
+  SECRET_KEY: ASECRETKEY
+  SECURITY_PASSWORD_SALT: ASALT
+  PERMANENT_SESSION_LIFETIME: 60
+  DEBUG: false
+  USER_DB_PATH: /tmp/mxcube-user.db
+
+sso:
+  USE_SSO: false
+  CLIENT_ID: mxcube
+mxcube:
+  mode: OSC
+  SESSION_REFRESH_INTERVAL: 9000
+  usermanager:
+    class: UserManager
+    inhouse_is_staff: true
+    users:
+      - username: no_user
+        role: staff

@@ -1,0 +1,5 @@
+%YAML 1.2
+---
+class: BeamlineActionsMockup.BeamlineActionsMockup
+configuration:
+  commands: "[]"

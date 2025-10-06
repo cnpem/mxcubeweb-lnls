@@ -1,0 +1,39 @@
+---
+
+sample_view_motors:
+  id: sample_view_motors
+  components:
+    - label: Omega
+      attribute: diffractometer.phi
+      role: omega
+      step: 90
+      precision: 2
+      suffix: °
+
+sample_view_video_controls:
+  id: sample_view_video_controls
+  components:
+    - id: snapshot
+      show: false
+    - id: draw_grid
+      show: false
+      show_vspace: false
+      show_hspace: true
+    - id: click_centring
+      show: false
+    - id: focus
+      show: false
+    - id: zoom
+      show: false
+    - id: backlight
+      show: false
+    - id: frontlight
+      show: false
+    - id: video_size
+      show: false
+
+beamline_setup:
+  id: beamline_setup
+  components:
+    - label: Motor
+      attribute: diffractometer.beamstop

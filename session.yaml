@@ -1,0 +1,36 @@
+%YAML 1.2
+---
+class: Session.Session
+configuration:
+  beamline_name: MANACA
+  email_extension: lnls.br
+  endstation_name: MANACA
+  feedback_email: no_feedback@lnls.br
+  file_info:
+    base_directory: /ibira/lnls/beamlines/manaca/proposals
+    precision: 5
+    archive_base_directory: /ibira/lnls/beamlines/manaca/proposals
+    processed_data_base_directory: /ibira/lnls/beamlines/manaca/proposals
+    processed_data_folder_name: proc
+    raw_data_folder_name: data
+    archive_folder: pyarch
+  inhouse_users:
+    proposal:
+      - code: andrey.nascimento
+        number: 0
+      - code: evandro.araujo
+        number: 1
+      - code: igor.maldonado
+        number: 2
+      - code: felipe.ramos
+        number: 3
+      - code: joao.rodriguez
+        number: 4
+      - code: pedro.benetton
+        number: 5
+      - code: rafael.lyra
+        number: 6
+  proposals:
+    proposal:
+      - code: 00000000
+  synchrotron_name: Sirius
