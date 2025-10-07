@@ -1,4 +1,11 @@
 ---
+sample_list_view_modes:
+  id: sample_list_view_modes
+  components:
+    - id: table_view
+      show: true
+    - id: graphical_view
+      show: true
 
 sample_view_motors:
   id: sample_view_motors
@@ -9,6 +16,72 @@ sample_view_motors:
       step: 90
       precision: 2
       suffix: °
+    - label: Kappa
+      attribute: diffractometer.kappa
+      role: kappa
+      step: 0.1
+      precision: 1
+      suffix: °
+    - label: Kappa Phi
+      attribute: diffractometer.kappa_phi
+      role: kappa_phi
+      step: 0.1
+      precision: 1
+      suffix: °
+    - label: X
+      attribute: diffractometer.phix
+      role: phix
+      step: 0.1
+      precision: 3
+      suffix: mm
+    - label: Y
+      attribute: diffractometer.phiy
+      role: phiy
+      step: 0.1
+      precision: 3
+      suffix: mm
+    - label: Z
+      attribute: diffractometer.phiz
+      role: phiz
+      step: 0.1
+      precision: 3
+      suffix: mm
+    - label: Samp-X
+      attribute: diffractometer.sampx
+      role: sampx
+      step: 0.1
+      precision: 3
+      suffix: mm
+    - label: Samp-Y
+      attribute: diffractometer.sampy
+      role: sampy
+      step: 0.1
+      precision: 3
+      suffix: mm
+    - label: Sample Horizontal
+      attribute: diffractometer.phiz
+      role: sample_horizontal
+      step: 0.1
+      precision: 3
+      suffix: mm
+    - label: Sample Vertical
+      attribute: diffractometer.phiy
+      role: sample_vertical
+      step: 0.1
+      precision: 3
+      suffix: mm
+    - label: Zoom
+      attribute: diffractometer.zoom
+      role: zoom
+      step: 1
+      precision: 1
+      suffix: mm
+    - label: Focus
+      attribute: diffractometer.sampx
+      role: focus
+      step: 0.1
+      precision: 3
+      suffix: mm
 
 sample_view_video_controls:
   id: sample_view_video_controls
@@ -35,5 +108,5 @@ sample_view_video_controls:
 beamline_setup:
   id: beamline_setup
   components:
-    - label: Motor
-      attribute: diffractometer.beamstop
+    - label: Fast Shutter
+      attribute: fast_shutter

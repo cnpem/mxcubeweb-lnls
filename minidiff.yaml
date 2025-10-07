@@ -11,3 +11,21 @@ configuration:
   sample_mount_mode: sample_changer
   username: diffractometer
   zoomcentre: '{"x":340,"y":250}'
+objects:
+  backlight: udiff_backlight.yaml
+  backlightswitch: udiff_backlightswitch.yaml
+  beamstop: beamstop.yaml
+  beamstop_distance: beamstop_alignment_x.yaml
+  capillary: capillary.yaml
+  focus: udiff_phix.yaml
+  frontlight: udiff_frontlight.yaml
+  frontlightswitch: udiff_frontlightswitch.yaml
+  kappa: udiff_kappa.yaml
+  kappa_phi: udiff_kappaphi.yaml
+  phi: udiff_omega.yaml
+  phix: udiff_phix.yaml
+  phiy: udiff_phiy.yaml
+  phiz: udiff_phiz.yaml
+  sampx: udiff_sampx.yaml
+  sampy: udiff_sampy.yaml
+  zoom: udiff_zoom.yaml

@@ -1,0 +1,8 @@
+%YAML 1.2
+---
+class: MotorMockup.MotorMockup
+configuration:
+  motor_name: CentringX
+  GUIstep: 0.01
+  unit: 1e-05
+  username: sampx
