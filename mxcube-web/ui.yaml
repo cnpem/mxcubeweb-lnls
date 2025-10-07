@@ -41,7 +41,7 @@ beamline_setup:
 camera_setup:
   id: camera_setup
   components:
-    - label: Sample
+    - label: Webcams
       url: http://10.31.74.45:5001/video_feed
       width: 700
       height: 700
