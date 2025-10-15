@@ -1,3 +1,8 @@
 %YAML 1.2
 ---
 class: LNLS.LNLSLIMS.LNLSLIMS
+configuration:
+  before_offset_days: 30
+  after_offset_days: 30
+  data_portal_url: https://data-sirius.cnpem.br/investigation/{id}/datasets
+  logbook_url: https://data-sirius.cnpem.br/investigation/{id}/events
