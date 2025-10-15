@@ -2,8 +2,6 @@
 ---
 class: LNLS.EPICS.EPICSMotor.EPICSMotor
 epics: 
-  "MNC:MOTOR:m1":
+  "MNC:B:PB05:CS1:m9":
     channels:
       '':
-configuration:
-  motor_name: CentringX
