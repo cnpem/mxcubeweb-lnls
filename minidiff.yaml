@@ -1,6 +1,6 @@
 %YAML 1.2
 ---
-class: DiffractometerMockup.DiffractometerMockup
+class: LNLS.LNLSDiffractometer.LNLSDiffractometer
 configuration:
   chip_definition_file: chip_definition.json
   exports: '["abort", "status", "my_fancy_function", "my_other_funny_function"]'
