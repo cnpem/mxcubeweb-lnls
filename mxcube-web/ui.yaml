@@ -29,7 +29,7 @@ sample_view_motors:
       precision: 1
       suffix: °
     - label: Sample Horizontal
-      attribute: diffractometer.sampx
+      attribute: diffractometer.phix
       role: sample_horizontal
       step: 0.01
       precision: 3
@@ -40,22 +40,22 @@ sample_view_motors:
       step: 0.01
       precision: 3
       suffix: mm
-    - label: X
-      attribute: diffractometer.phix
-      role: phix
-      step: 0.1
+    - label: Focus
+      attribute: diffractometer.sampz
+      role: focus
+      step: 0.01
       precision: 3
       suffix: mm
     - label: Y
       attribute: diffractometer.phiy
       role: phiy
-      step: 0.1
+      step: 0.01
       precision: 3
       suffix: mm
     - label: Z
       attribute: diffractometer.phiz
       role: phiz
-      step: 0.1
+      step: 0.01
       precision: 3
       suffix: mm
 
