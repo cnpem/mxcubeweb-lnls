@@ -17,7 +17,6 @@ objects:
   beamstop: beamstop.yaml
   beamstop_distance: beamstop_alignment_x.yaml
   capillary: capillary.yaml
-  focus: udiff_phix.yaml
   frontlight: udiff_frontlight.yaml
   frontlightswitch: udiff_frontlightswitch.yaml
   kappa: udiff_kappa.yaml
@@ -28,4 +27,3 @@ objects:
   phiz: udiff_phiz.yaml
   sampx: udiff_sampx.yaml
   sampy: udiff_sampy.yaml
-  zoom: udiff_zoom.yaml
