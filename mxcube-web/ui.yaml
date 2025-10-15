@@ -37,3 +37,15 @@ beamline_setup:
   components:
     - label: Motor
       attribute: diffractometer.beamstop
+
+camera_setup:
+  id: camera_setup
+  components:
+    - label: Webcams
+      url: http://10.31.74.45:5001/video_feed
+      width: 700
+      height: 700
+    - label: Hutches
+      url: http://10.39.50.104:3000/
+      width: 1300
+      height: 800
