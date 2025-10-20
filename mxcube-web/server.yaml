@@ -6,6 +6,8 @@ server:
   PERMANENT_SESSION_LIFETIME: 60
   DEBUG: false
   USER_DB_PATH: /tmp/mxcube-user.db
+  HOST: 0.0.0.0
+  PORT: 8081
 
 sso:
   USE_SSO: true
