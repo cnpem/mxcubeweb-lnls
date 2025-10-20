@@ -1,0 +1,7 @@
+%YAML 1.2
+---
+class: LNLS.EPICS.EPICSMotor.EPICSMotor
+epics: 
+  "MNC:B:PB05:CS1:m9":
+    channels:
+      '':
