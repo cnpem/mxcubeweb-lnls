@@ -1,0 +1,10 @@
+%YAML 1.2
+---
+class: LNLS.EPICS.EPICSActuator.EPICSActuator
+epics:
+  "MNC:B:":
+    channels:
+      rbv:
+        suffix: "Transmission"
+      val:
+        suffix: "Transmission:SET"
