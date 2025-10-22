@@ -73,7 +73,7 @@ sample_view_video_controls:
     - id: focus
       show: false
     - id: zoom
-      show: false
+      show: true
     - id: backlight
       show: false
     - id: frontlight

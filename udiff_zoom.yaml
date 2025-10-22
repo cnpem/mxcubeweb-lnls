@@ -7,8 +7,18 @@ epics:
       rbv:
         suffix: ''
       val:
-        suffix: ''
+        suffix: '.VAL'
 configuration:
+  values: {
+    "LEVEL1": 1,
+    "LEVEL2": 2,
+    "LEVEL3": 3,
+    "LEVEL4": 4,
+    "LEVEL5": 5,
+    "LEVEL6": 6,
+    "LEVEL7": 7,
+    "LEVEL8": 8
+  }
   mm_per_pixel_y: {
     "LEVEL0": 0.004650, 
     "LEVEL1": 0.00190, 

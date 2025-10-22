@@ -27,3 +27,4 @@ objects:
   sampx: udiff_sampx.yaml
   sampy: udiff_sampy.yaml
   sampz: udiff_sampz.yaml
+  zoom: udiff_zoom.yaml
