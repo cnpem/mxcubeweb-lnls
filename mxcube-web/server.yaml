@@ -12,7 +12,6 @@ server:
 sso:
   USE_SSO: true
   META_DATA_URI: https://data-sirius.cnpem.br/auth/realms/LNLS/.well-known/openid-configuration
-  CLIENT_SECRET: nULyOPL9aJShTuqkU97ufq033Q2bpokh
   CLIENT_ID: mxcubeweb
 
 mxcube:
