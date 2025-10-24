@@ -12,6 +12,7 @@ server:
 sso:
   USE_SSO: true
   META_DATA_URI: https://data-sirius.cnpem.br/auth/realms/LNLS/.well-known/openid-configuration
+  LOGOUT_URI: https://data-sirius.cnpem.br/auth/realms/LNLS/protocol/openid-connect/logout
   CLIENT_ID: mxcubeweb
 
 mxcube:
