@@ -6,10 +6,15 @@ server:
   PERMANENT_SESSION_LIFETIME: 60
   DEBUG: false
   USER_DB_PATH: /tmp/mxcube-user.db
+  HOST: 0.0.0.0
+  PORT: 8081
 
 sso:
-  USE_SSO: false
-  CLIENT_ID: mxcube
+  USE_SSO: true
+  META_DATA_URI: https://data-sirius.cnpem.br/auth/realms/LNLS/.well-known/openid-configuration
+  LOGOUT_URI: https://data-sirius.cnpem.br/auth/realms/LNLS/protocol/openid-connect/logout
+  CLIENT_ID: mxcubeweb
+
 mxcube:
   mode: OSC
   SESSION_REFRESH_INTERVAL: 9000
