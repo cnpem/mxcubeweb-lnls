@@ -69,7 +69,7 @@ sample_view_video_controls:
       show_vspace: false
       show_hspace: true
     - id: click_centring
-      show: false
+      show: true
     - id: focus
       show: false
     - id: zoom
