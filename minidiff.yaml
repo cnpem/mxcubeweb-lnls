@@ -1,6 +1,6 @@
 %YAML 1.2
 ---
-class: DiffractometerMockup.DiffractometerMockup
+class: LNLS.LNLSDiffractometer.LNLSDiffractometer
 configuration:
   chip_definition_file: chip_definition.json
   exports: '["abort", "status", "my_fancy_function", "my_other_funny_function"]'
@@ -11,3 +11,19 @@ configuration:
   sample_mount_mode: sample_changer
   username: diffractometer
   zoomcentre: '{"x":340,"y":250}'
+objects:
+  backlight: udiff_backlight.yaml
+  backlightswitch: udiff_backlightswitch.yaml
+  beamstop: beamstop.yaml
+  beamstop_distance: beamstop_alignment_x.yaml
+  capillary: capillary.yaml
+  frontlight: udiff_frontlight.yaml
+  frontlightswitch: udiff_frontlightswitch.yaml
+  kappa: udiff_kappa.yaml
+  kappa_phi: udiff_kappaphi.yaml
+  phi: udiff_omega.yaml
+  phiy: udiff_phiy.yaml
+  phiz: udiff_phiz.yaml
+  sampx: udiff_sampx.yaml
+  sampy: udiff_sampy.yaml
+  sampz: udiff_sampz.yaml
