@@ -5,7 +5,7 @@ epics:
   "MNC:B:BZOOM:cam1:ZoomLevel":
     channels:
       rbv:
-        suffix: '.VAL'
+        suffix: ''
         polling_period: 200
       val:
         suffix: ''
