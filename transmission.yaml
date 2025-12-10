@@ -2,9 +2,12 @@
 ---
 class: LNLS.EPICS.EPICSActuator.EPICSActuator
 epics:
-  "MNC:B:":
+  "MNC:B:TRANSMISSION:":
     channels:
       rbv:
-        suffix: "Transmission"
+        suffix: "RBV"
+        polling_period: 200
       val:
-        suffix: "Transmission:SET"
+        suffix: "SET"
+configuration:
+  tolerance: 0.01
