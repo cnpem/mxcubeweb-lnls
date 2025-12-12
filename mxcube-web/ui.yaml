@@ -5,7 +5,7 @@ sample_list_view_modes:
     - id: table_view
       show: true
     - id: graphical_view
-      show: true
+      show: false
 
 sample_view_motors:
   id: sample_view_motors
