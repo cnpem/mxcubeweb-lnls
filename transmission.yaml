@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+class: LNLS.EPICS.EPICSActuator.EPICSActuator
+epics:
+  "MNC:B:TRANSMISSION:":
+    channels:
+      rbv:
+        suffix: "RBV"
+        polling_period: 200
+      val:
+        suffix: "SET"
+configuration:
+  tolerance: 0.01

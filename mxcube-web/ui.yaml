@@ -88,6 +88,12 @@ beamline_setup:
       attribute: fast_shutter
     - label: Motor
       attribute: diffractometer.beamstop
+    - label: Transmission
+      attribute: transmission
+      step: 0.1
+      precision: 1
+      suffix: "%"
+
 
 camera_setup:
   id: camera_setup
