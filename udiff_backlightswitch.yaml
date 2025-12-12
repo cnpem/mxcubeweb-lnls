@@ -1,10 +1,15 @@
 %YAML 1.2
 ---
-class: ExporterNStateMockup.ExporterNStateMockup
+class: LNLS.EPICS.EPICSNState.EPICSNState
+epics:
+  "MNC:B:PB03:PV_ACTIVATE_BACKLIGHT":
+    channels:
+      rbv:
+        suffix: ':RBV'
+        polling_period: 200
+      val:
+        suffix: ':SET'
 configuration:
-  default_value: false
-  exporter_address: wid30bmd:9001
-  use_hwstate: true
-  username: backlight_switch
-  value_channel_name: BackLightIsOn
-  values: '{"IN": True, "OUT": False}'
+  low_limit: 0
+  high_limit: 1
+  values: {'LEVEL0': 1, 'LEVEL1': 0}
