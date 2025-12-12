@@ -12,4 +12,4 @@ epics:
 configuration:
   low_limit: 0
   high_limit: 1
-  values: {'LEVLE0': 1, 'LEVLE1': 0}
+  values: {'LEVEL0': 1, 'LEVEL1': 0}
