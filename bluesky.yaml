@@ -1,0 +1,4 @@
+%YAML 1.2
+---
+class: LNLS.BlueskyHttpServer.BlueskyHttpServer
+bluesky_http_server: "http://s-swc02-l:60610/"
