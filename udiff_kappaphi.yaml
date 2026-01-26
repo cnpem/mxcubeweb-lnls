@@ -1,7 +1,13 @@
 %YAML 1.2
 ---
-class: LNLS.EPICS.EPICSMotor.EPICSMotor
+class: LNLS.EPICS.EPICSMotor.EPICSMotorDetachable
 epics: 
   "MNC:B:PB05:m6":
     channels:
       '':
+  'MNC:B:PB05:':
+    channels:
+      'presence':
+        suffix: "SAMPLE_HOLDER_STATUS"
+configuration:
+  is_absent_value: 0
