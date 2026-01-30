@@ -77,7 +77,7 @@ sample_view_video_controls:
     - id: backlight
       show: true
     - id: frontlight
-      show: false
+      show: true
     - id: video_size
       show: false
 
