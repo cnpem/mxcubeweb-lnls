@@ -1,7 +1,14 @@
 %YAML 1.2
 ---
-class: MotorMockup.MotorMockup
+class: LNLS.EPICS.EPICSActuator.EPICSActuator
+epics:
+  "MNC:B:LUCIOLE01:LIGHT_CH2":
+    channels:
+      rbv:
+        suffix: ''
+        polling_period: 200
+      val:
+        suffix: ''
 configuration:
-  exporter_address: 192.168.96.43:9001
-  motor_name: frontlight
-  username: frontlight
+  low_limit: 0
+  high_limit: 20000
