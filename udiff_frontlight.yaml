@@ -10,5 +10,4 @@ epics:
       val:
         suffix: ''
 configuration:
-  low_limit: 0
-  high_limit: 20000
+  default_limits: (0, 20000)
