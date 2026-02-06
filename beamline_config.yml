@@ -41,6 +41,7 @@ objects:
   - queue_manager: queue_manager.yaml
   - queue_model: queue_model.yaml
   - transmission: transmission.yaml
+  - flux: flux.yaml
 
   # Procedures:
   - beamline_actions: beamline_actions.yaml

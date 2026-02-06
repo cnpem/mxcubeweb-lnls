@@ -93,6 +93,11 @@ beamline_setup:
       step: 0.1
       precision: 1
       suffix: "%"
+    - label: Flux
+      attribute: flux
+      step: 0.1
+      precision: 1
+      suffix: "ph/s"
 
 
 camera_setup:

@@ -1,0 +1,11 @@
+%YAML 1.2
+---
+class: LNLS.EPICS.EPICSActuator.EPICSActuator
+epics:
+  "MNC:B:PICO02:FluxCividec":
+    channels:
+      rbv:
+        suffix: ""
+        polling_period: 200
+configuration:
+  tolerance: 0.01
