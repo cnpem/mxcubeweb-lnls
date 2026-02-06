@@ -8,6 +8,6 @@ epics:
   'MNC:B:PB05:':
     channels:
       'presence':
-        suffix: "SAMPLE_HOLDER_STATUS"
+        suffix: "SAMPLE_HOLDER_STATUS:RBV"
 configuration:
   is_absent_value: 0
