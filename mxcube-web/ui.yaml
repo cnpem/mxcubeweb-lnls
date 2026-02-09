@@ -98,6 +98,7 @@ beamline_setup:
       step: 0.1
       precision: 1
       suffix: "ph/s"
+      format: expo
 
 
 camera_setup:
