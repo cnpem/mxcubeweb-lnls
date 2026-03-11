@@ -35,7 +35,7 @@ objects:
   frontlightswitch: udiff_frontlightswitch.yaml
   kappa: udiff_kappa.yaml
   kappa_phi: udiff_kappaphi.yaml
-  phi: udiff_omega.yaml
+  omega: udiff_omega.yaml
   phiy: udiff_phiy.yaml
   phiz: udiff_phiz.yaml
   sampx: udiff_sampx.yaml
