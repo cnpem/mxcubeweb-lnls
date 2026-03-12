@@ -99,6 +99,11 @@ beamline_setup:
       precision: 1
       suffix: "ph/s"
       format: expo
+    - label: Energy
+      attribute: energy
+      step: 0.1
+      precision: 3
+      suffix: "keV"
 
 
 camera_setup:

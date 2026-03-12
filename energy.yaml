@@ -1,0 +1,12 @@
+%YAML 1.2
+---
+class: LNLS.EPICS.EPICSActuator.EPICSActuator
+epics:
+  "MNC:A:DCM01:Energy_SP":
+    channels:
+      rbv:
+        suffix: ""
+        polling_period: 200
+configuration:
+  read_only: true
+  tolerance: 0.01
