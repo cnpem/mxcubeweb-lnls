@@ -99,6 +99,26 @@ beamline_setup:
       precision: 1
       suffix: "ph/s"
       format: expo
+    - label: Detector Distance
+      attribute: detector_distance
+      step: 0.001
+      precision: 3
+      suffix: "mm"
+    - label: Resolution
+      attribute: resolution
+      step: 0.001
+      precision: 3
+      suffix: "Å"
+    - label: Energy
+      attribute: energy
+      step: 0.1
+      precision: 3
+      suffix: "keV"
+    - label: Wavelength
+      attribute: wavelength
+      step: 0.1
+      precision: 4
+      suffix: "Å"
 
 
 camera_setup:

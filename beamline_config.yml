@@ -27,6 +27,9 @@ objects:
   - beam: beam.yaml
   - sample_changer: sample_changer.yaml
   - bluesky: bluesky.yaml
+  - detector_distance: detector_distance.yaml
+  - energy: energy.yaml
+  - wavelength: wavelength.yaml
 
   # The 2 lines up have to be used for SC and the 2 line below for the plate manipulator
   # - sample_changer: plate_manipulator.xml
@@ -42,6 +45,7 @@ objects:
   - queue_model: queue_model.yaml
   - transmission: transmission.yaml
   - flux: flux.yaml
+  - resolution: resolution.yaml
 
   # Procedures:
   - beamline_actions: beamline_actions.yaml
