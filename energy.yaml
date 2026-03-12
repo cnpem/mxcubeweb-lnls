@@ -2,7 +2,7 @@
 ---
 class: LNLS.EPICS.EPICSActuator.EPICSActuator
 epics:
-  "MNC:A:DCM01:Energy_SP":
+  "MNC:A:DCM01:GonRx_Energy_RBV":
     channels:
       rbv:
         suffix: ""
