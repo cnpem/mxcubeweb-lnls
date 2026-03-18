@@ -27,6 +27,11 @@ objects:
   - beam: beam.yaml
   - sample_changer: sample_changer.yaml
   - bluesky: bluesky.yaml
+  - cryo: cryo.yaml
+  - energy: energy.yaml
+  - wavelength: wavelength.yaml
+  - detector_distance: detector_distance.yaml
+  - resolution: resolution.yaml
 
   # The 2 lines up have to be used for SC and the 2 line below for the plate manipulator
   # - sample_changer: plate_manipulator.xml
