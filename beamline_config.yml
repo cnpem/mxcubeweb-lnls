@@ -23,6 +23,7 @@ objects:
   # Hardware:
   - session: session.yaml
   - machine_info: machine_info.yaml
+  - safety_shutter: safety_shutter.yaml
   - detector: detector.yaml
   - beam: beam.yaml
   - sample_changer: sample_changer.yaml

@@ -1,7 +1,15 @@
 %YAML 1.2
 ---
-class: ShutterMockup.ShutterMockup
+class: LNLS.EPICS.EPICSNState.EPICSNStateInputValue
+epics:
+  "MNC:A:PPS01:":
+    channels:
+      rbv:
+        suffix: 'PG_STATUS'
+        polling_period: 200
+      val:
+        suffix: 'OEAOPENCLOSE'
 configuration:
-  actuator_name: safety_shutter
-  username: SafetyShutter
-  values: '{"OPEN": "open", "CLOSED": "closed"}'
+  default_limits: (0, 1)
+  values: {'Open': 0, 'Closed': 1}
+  input_value: 1
