@@ -1,5 +1,22 @@
 %YAML 1.2
 ---
-class: MachineInfoMockup.MachineInfoMockup
+class: LNLS.LNLSMachineInfo.LNLSMachineInfo
+epics:
+  "SI-Glob:AP-":
+    channels:
+      current:
+        suffix: 'CurrInfo:Current-Mon'
+        polling_period: 200
+      lifetime:
+        suffix: 'CurrInfo:Lifetime-Mon'
+        polling_period: 200
+  "AS-Glob:AP-":
+    channels:
+      message:
+        suffix: 'MachShift:Mode-Sts'
+        polling_period: 200
+      fill_mode:
+        suffix: 'InjCtrl:Mode-Sel'
+        polling_period: 200
 configuration:
-  parameters: '["current", "message", "lifetime"]'
+  parameters: '["current", "message", "lifetime", "fill_mode"]'

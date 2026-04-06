@@ -84,10 +84,8 @@ sample_view_video_controls:
 beamline_setup:
   id: beamline_setup
   components:
-    - label: Fast Shutter
-      attribute: fast_shutter
-    - label: Motor
-      attribute: diffractometer.beamstop
+    - label: Safety shutter
+      attribute: safety_shutter
     - label: Transmission
       attribute: transmission
       step: 0.1
