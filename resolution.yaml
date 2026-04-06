@@ -5,17 +5,17 @@ epics:
   "MNC:B:PB04:CS1:m9":
     channels:
       "":
-  "MX2:cam1:BeamX":
+  "MNC:B:PILATUS4_4M:cam1:BeamX":
     channels:
       beam_x:
         suffix: ""
         polling_period: 200
-  "MX2:cam1:BeamY":
+  "MNC:B:PILATUS4_4M:cam1:BeamY":
     channels:
       beam_y:
         suffix: ""
         polling_period: 200
-  "MX2:cam1:Wavelength":
+  "MNC:B:PILATUS4_4M:cam1:Wavelength":
     channels:
       wavelength_rbv:
         suffix: ""
