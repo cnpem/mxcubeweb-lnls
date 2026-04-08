@@ -1,6 +1,6 @@
 %YAML 1.2
 ---
-class: LNLS.EPICS.EPICSNState.EPICSNStateInputValue
+class: LNLS.EPICS.EPICSNState.EPICSToggle
 epics:
   "MNC:A:PPS01:":
     channels:
