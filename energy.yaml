@@ -1,6 +1,6 @@
 %YAML 1.2
 ---
-class: LNLS.EPICS.EPICSActuator.EPICSActuatorBluesky
+class: LNLS.EPICS.EPICSActuator.LNLSEnergy
 epics:
   "MNC:A:DCM01:":
     channels:
