@@ -1,11 +1,11 @@
 %YAML 1.2
 ---
-class: MultiCollectMockup.MultiCollectMockup
+class: LNLS.LNLSMultiCollect.LNLSMultiCollect
+epics:
+  "MNC:B:PILATUS4_4M:cam1:":
+    channels:
+      detector_sequence_id:
+        suffix: "SequenceId"
 configuration:
   auto_processing:
-    program:
-      - event: after
-        executable: not_existing_executable_1
-      - event: image
-        executable: not_existing_executable_2
-  num_snapshots: 0
+    program: []
