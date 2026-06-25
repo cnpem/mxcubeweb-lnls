@@ -1,0 +1,12 @@
+%YAML 1.2
+---
+class: LNLS.EPICS.EPICSActuator.EPICSActuator
+epics:
+  "SI-09SA:ID-APU22:Phase-Mon":
+    channels:
+      rbv:
+        suffix: ""
+        polling_period: 200
+configuration:
+  read_only: true
+  tolerance: 0.01
