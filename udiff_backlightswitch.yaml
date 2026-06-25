@@ -1,6 +1,6 @@
 %YAML 1.2
 ---
-class: LNLS.EPICS.EPICSNState.EPICSNState
+class: LNLS.EPICS.EPICSNState.LNLSRestrictedNState
 epics:
   "MNC:B:PB03:PV_ACTIVATE_BACKLIGHT":
     channels:
@@ -12,3 +12,4 @@ epics:
 configuration:
   default_limits: (0, 1)
   values: {'LEVEL0': 1, 'LEVEL1': 0}
+  default_timeout: 3

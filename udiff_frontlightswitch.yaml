@@ -1,6 +1,6 @@
 %YAML 1.2
 ---
-class: LNLS.EPICS.EPICSNState.EPICSNStateInterval
+class: LNLS.EPICS.EPICSNState.LNLSRestrictedNStateInterval
 epics:
   "MNC:B:LUCIOLE01:LIGHT_CH2":
     channels:
