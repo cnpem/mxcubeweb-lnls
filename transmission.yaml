@@ -10,4 +10,5 @@ epics:
       val:
         suffix: "SET"
 configuration:
-  tolerance: 0.01
+  tolerance: 0.5
+  default_limits: (0, 100)
