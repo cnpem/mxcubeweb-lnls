@@ -1,10 +1,7 @@
 %YAML 1.2
 ---
-class: MDCameraMockup.MDCameraMockup
+class: LNLS.LNLSCamera.LNLSCamera
 configuration:
-  image_name: 2BRemoved.jpeg
-  interval: 100
-  remote_interval: 100
-  specversion: 130.235.94.114:kappa
-  tangoname: i9113/microdiff/newMD
-  username: Camera Microdiff
+  width: 1280
+  height: 1024
+  scale: 1
