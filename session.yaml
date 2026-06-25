@@ -1,10 +1,10 @@
 %YAML 1.2
 ---
-class: Session.Session
+class: LNLS.LNLSSession.LNLSSession
 configuration:
   beamline_name: MANACA
   email_extension: lnls.br
-  endstation_name: MANACA
+  endstation_name: data
   feedback_email: no_feedback@lnls.br
   file_info:
     base_directory: /ibira/lnls/beamlines/manaca/proposals
