@@ -1,6 +1,6 @@
 %YAML 1.2
 ---
-class: LNLS.EPICS.EPICSActuator.EPICSActuator
+class: LNLS.EPICS.EPICSActuator.LNLSRestrictedActuator
 epics:
   "MNC:B:LUCIOLE01:LIGHT_CH1":
     channels:
@@ -11,3 +11,4 @@ epics:
         suffix: ''
 configuration:
   default_limits: (0, 20000)
+  default_timeout: 3

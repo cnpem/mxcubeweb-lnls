@@ -1,6 +1,6 @@
 %YAML 1.2
 ---
-class: LNLS.EPICS.EPICSMotor.EPICSMotor
+class: LNLS.EPICS.EPICSMotor.LNLSRestrictedMotor
 epics: 
   "MNC:B:PB05:m3":
     channels:

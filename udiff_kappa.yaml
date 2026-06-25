@@ -1,6 +1,6 @@
 %YAML 1.2
 ---
-class: LNLS.EPICS.EPICSMotor.EPICSMotorDetachable
+class: LNLS.EPICS.EPICSMotor.LNLSRestrictedMotorDetachable
 epics: 
   "MNC:B:PB05:m7":
     channels:
