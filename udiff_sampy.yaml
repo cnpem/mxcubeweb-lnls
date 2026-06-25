@@ -1,6 +1,6 @@
 %YAML 1.2
 ---
-class: LNLS.EPICS.EPICSMotor.LNLSUpdateGridPositionVertical
+class: LNLS.EPICS.EPICSMotor.LNLSSampleMotor
 epics: 
   "MNC:B:PB05:CS1:m8":
     channels:
