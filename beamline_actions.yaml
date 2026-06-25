@@ -1,5 +1,7 @@
 %YAML 1.2
 ---
-class: BeamlineActionsMockup.BeamlineActionsMockup
+class: LNLS.LNLSBeamlineActions.LNLSBeamlineActions
 configuration:
-  commands: "[]"
+  commands: [{"type": "controller", "name": "Soak", "command": "HardwareObjects.LNLS.LNLSBeamlineActions.Soak"},
+            {"type": "controller", "name": "Dry", "command": "HardwareObjects.LNLS.LNLSBeamlineActions.Dry"},
+            {"type": "controller", "name": "Home", "command": "HardwareObjects.LNLS.LNLSBeamlineActions.Home"},]
