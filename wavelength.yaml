@@ -2,7 +2,7 @@
 ---
 class: LNLS.EPICS.EPICSActuator.EPICSActuator
 epics:
-  "MNC:B:PILATUS4_4M:cam1:Wavelength":
+  "MNC:B:SoftIOC:Resolution:Wavelength_RBV":
     channels:
       rbv:
         suffix: ""
