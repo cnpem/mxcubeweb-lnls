@@ -1,6 +1,7 @@
 %YAML 1.2
 ---
 class: LNLS.LNLSSampleView.LNLSSampleView
-configuration: {}
+configuration:
+  centring_motors: ["omega", "phiy", "phiz", "sampx", "sampy"]
 objects:
   camera: md_camera.yaml
