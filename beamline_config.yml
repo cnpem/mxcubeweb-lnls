@@ -12,6 +12,7 @@ objects:
   - detector: detector.yaml
   - beam: beam.yaml
   - bluesky: bluesky.yaml
+  - sample_changer: sample_changer.yaml
   - cryo: cryo.yaml
   - energy_actuator: energy_actuator.yaml
   - energy: energy.yaml
@@ -26,7 +27,6 @@ objects:
   - queue_model: queue_model.yaml
   - transmission: transmission.yaml
   - flux: flux.yaml
-  - sample_changer: sample_changer.yaml
   - beamline_actions: beamline_actions.yaml
   - collect: mxcollect.yaml
   - safety_shutter: safety_shutter.yaml
