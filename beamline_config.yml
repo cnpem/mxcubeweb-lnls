@@ -30,6 +30,7 @@ objects:
   - collect: mxcollect.yaml
   - safety_shutter: safety_shutter.yaml
   - xrf_spectrum: xrf.yaml
+  - energy_scan: energy_scan.yaml
 
 configuration:
   advanced_methods:
@@ -62,9 +63,9 @@ configuration:
       take_snapshots: true
       sub_wedge_size: 10
 
-      helical:
-        number_of_images: 100
-        detector_mode_list: ["0", "C18", "C2"]
+    helical:
+      number_of_images: 100
+      exp_time: 0.04
 
     characterisation:
       exp_time: 0.05
@@ -88,7 +89,7 @@ configuration:
   acquisition_limit_values:
     exposure_time:
       - 0.00025
-      - 1
+      - 120
     osc_range:
       - 0.05
       - 10
@@ -102,9 +103,9 @@ configuration:
   available_methods:
     datacollection: true
     characterisation: false
-    helical: false
+    helical: true
     xrf_spectrum: true
-    energy_scan: false
+    energy_scan: true
     mesh: true
     ssx_chip_collection: false
     gphlworkflow: false
