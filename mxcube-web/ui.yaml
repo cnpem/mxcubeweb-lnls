@@ -113,6 +113,11 @@ beamline_setup:
       step: 0.1
       precision: 3
       suffix: "keV"
+    - label: Phase
+      attribute: phase
+      step: 0.1
+      precision: 3
+      suffix: "mm"
     - label: Wavelength
       attribute: wavelength
       step: 0.1

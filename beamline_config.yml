@@ -16,6 +16,7 @@ objects:
   - energy_actuator: energy_actuator.yaml
   - energy: energy.yaml
   - wavelength: wavelength.yaml
+  - phase: phase.yaml
   - detector_distance: detector_distance.yaml
   - resolution: resolution.yaml
   - diffractometer: diffractometer.yaml
