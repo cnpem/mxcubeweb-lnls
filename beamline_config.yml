@@ -14,9 +14,8 @@ objects:
   - bluesky: bluesky.yaml
   - sample_changer: sample_changer.yaml
   - cryo: cryo.yaml
-  - energy_actuator: energy_actuator.yaml
-  - energy: energy.yaml
   - wavelength: wavelength.yaml
+  - energy: energy.yaml
   - phase: phase.yaml
   - detector_distance: detector_distance.yaml
   - resolution: resolution.yaml
