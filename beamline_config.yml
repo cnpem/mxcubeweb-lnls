@@ -43,7 +43,7 @@ configuration:
   run_number: 1
   click_centring_num_clicks: 3
 
-  mesh_result_format: PNG
+  mesh_result_format: RGB
   use_native_mesh: true
   enable_2d_points: true
 
@@ -76,10 +76,10 @@ configuration:
       detector_mode_list: ["0", "C18", "C2"]
 
     mesh:
-      exp_time: 10
+      exp_time: 0.005
       range: 10
       num_images: 100
-      cell_counting: zig-zag
+      cell_counting: normal
       cell_spacing: vertical, horizontal
       mesh_center: top-left
 
