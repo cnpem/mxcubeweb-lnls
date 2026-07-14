@@ -1,6 +1,6 @@
 %YAML 1.2
 ---
-class: LNLS.EPICS.EPICSActuator.EPICSActuator
+class: LNLS.LNLSTransmission.LNLSTransmission
 epics:
   "MNC:B:TRANSMISSION:":
     channels:
@@ -12,3 +12,4 @@ epics:
 configuration:
   tolerance: 0.5
   default_limits: (0, 100)
+  default_timeout: 10
