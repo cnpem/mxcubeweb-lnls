@@ -97,17 +97,11 @@ beamline_setup:
       step: 0.1
       precision: 1
       suffix: "%"
-    - label: Flux
-      attribute: flux
-      step: 0.1
-      precision: 1
-      suffix: "ph/s"
-      format: expo
-    - label: Cryo
-      attribute: cryo
-      step: 0.1
-      precision: 1
-      suffix: "K"
+    - label: Detector Distance
+      attribute: detector_distance
+      step: 0.001
+      precision: 3
+      suffix: "mm"
     - label: Energy
       attribute: energy_actuator
       step: 0.1
@@ -118,21 +112,27 @@ beamline_setup:
       step: 0.1
       precision: 3
       suffix: "mm"
-    - label: Wavelength
-      attribute: wavelength
+    - label: Flux
+      attribute: flux
       step: 0.1
-      precision: 4
-      suffix: "Å"
-    - label: Detector Distance
-      attribute: detector_distance
-      step: 0.001
-      precision: 3
-      suffix: "mm"
+      precision: 1
+      suffix: "ph/s"
+      format: expo
     - label: Resolution
       attribute: resolution
       step: 0.001
       precision: 3
       suffix: "Å"
+    - label: Wavelength
+      attribute: wavelength
+      step: 0.1
+      precision: 4
+      suffix: "Å"
+    - label: Cryo
+      attribute: cryo
+      step: 0.1
+      precision: 1
+      suffix: "K"
 
 camera_setup:
   id: camera_setup
