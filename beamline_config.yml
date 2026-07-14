@@ -27,6 +27,7 @@ objects:
   - beam: beam.yaml
   - bluesky: bluesky.yaml
   - cryo: cryo.yaml
+  - energy_actuator: energy_actuator.yaml
   - energy: energy.yaml
   - wavelength: wavelength.yaml
   - detector_distance: detector_distance.yaml

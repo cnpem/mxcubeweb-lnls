@@ -109,7 +109,7 @@ beamline_setup:
       precision: 1
       suffix: "K"
     - label: Energy
-      attribute: energy
+      attribute: energy_actuator
       step: 0.1
       precision: 3
       suffix: "keV"
