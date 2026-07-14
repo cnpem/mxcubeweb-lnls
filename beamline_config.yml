@@ -23,7 +23,6 @@ objects:
   # Hardware:
   - session: session.yaml
   - machine_info: machine_info.yaml
-  - safety_shutter: safety_shutter.yaml
   - detector: detector.yaml
   - beam: beam.yaml
   - bluesky: bluesky.yaml
@@ -52,6 +51,7 @@ objects:
   - sample_changer: sample_changer.yaml
   - beamline_actions: beamline_actions.yaml
   - collect: mxcollect.yaml
+  - safety_shutter: safety_shutter.yaml
 
 configuration:
   advanced_methods:
