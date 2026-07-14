@@ -89,7 +89,7 @@ configuration:
   acquisition_limit_values:
     exposure_time:
       - 0.00025
-      - 120
+      - 9999
     osc_range:
       - 0.05
       - 10
