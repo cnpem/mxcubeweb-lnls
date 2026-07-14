@@ -5,22 +5,8 @@
 class:
   mxcubecore.HardwareObjects.Beamline.Beamline
 
-# objects
-#
-# NBNB some objects that do not currently have their own config files
-# would need those added (e.g. the centring methods)
-#
 objects:
-  # The !!omap and the lines starting with '- ' give you an *ordered* dictionary
-  # And thus a reproducible loading order
   !!omap
-  # The values are the file paths to the configuration file for the
-  # object, relative to the configuration file path(s)
-  #
-  # NB - the order is *NOT* arbitrary, as signal connections are set
-  # on one object that require the other to be already loaded.
-  #
-  # Hardware:
   - session: session.yaml
   - machine_info: machine_info.yaml
   - detector: detector.yaml
@@ -32,14 +18,6 @@ objects:
   - wavelength: wavelength.yaml
   - detector_distance: detector_distance.yaml
   - resolution: resolution.yaml
-
-  # The 2 lines up have to be used for SC and the 2 line below for the plate manipulator
-  # - sample_changer: plate_manipulator.xml
-  # - sample_changer_maintenance: plate_manipulator_maint.xml
-
-  # - harvester: harvester.xml
-  # - harvester_maintenance: harvester_maintenance.xml
-
   - diffractometer: diffractometer.yaml
   - lims: lims.yaml
   - sample_view: sample_view.yaml
@@ -47,8 +25,6 @@ objects:
   - queue_model: queue_model.yaml
   - transmission: transmission.yaml
   - flux: flux.yaml
-
-  # Procedures:
   - sample_changer: sample_changer.yaml
   - beamline_actions: beamline_actions.yaml
   - collect: mxcollect.yaml
@@ -71,31 +47,26 @@ configuration:
 
   default_acquisition_parameters:
     default:
-      # Default values, also used for standard acquisition.
-      # Values not given in other dictionaries are taken from here
-      exp_time: 0.02  # exposure time
-      osc_start: 0.0  # Only used if no current angle can be found
+      exp_time: 0.01
+      osc_start: 0.0
       osc_range: 0.1
       num_passes: 1
       first_image: 1
       overlap: 0
       num_images: 1
-      detector_mode: 1  # Remove as not in practice used ?
+      detector_mode: 1
       inverse_beam: false
       take_dark_current: true
       skip_existing_images: true
       take_snapshots: true
       sub_wedge_size: 10
-      # NB 'compression' not added as apparently never used
 
       helical:
-        # Defaults for helical scan. Missing values are taken from default
         number_of_images: 100
         detector_mode_list: ["0", "C18", "C2"]
 
     characterisation:
-      # Defaults for characterisation. Missing values are taken from default
-      exp_time: 0.05  # exposure time
+      exp_time: 0.05
       osc_range: 1
       overlap: -89
       num_images: 4
@@ -103,8 +74,7 @@ configuration:
       detector_mode_list: ["0", "C18", "C2"]
 
     mesh:
-      # Defaults for 'advanced' acquisition. Missing values are taken from default
-      exp_time: 10  # exposure time
+      exp_time: 10
       range: 10
       num_images: 100
       cell_counting: zig-zag
@@ -113,27 +83,26 @@ configuration:
 
       gphlworkflow:
         {}
-        # Apparently this must be here, but we use all values same as default
 
   acquisition_limit_values:
     exposure_time:
-      - 0.02
-      - 1000
+      - 0.00025
+      - 1
     osc_range:
-      - -10000
-      - 10000
+      - 0.05
+      - 10
     number_of_images:
       - 1
-      - 99999
+      - 9999
     kappa:
-      - -5.0
-      - 240.0
+      - -95
+      - 1
 
   available_methods:
     datacollection: true
     characterisation: false
     helical: false
-    xrf_spectrum: false
+    xrf_spectrum: true
     energy_scan: false
     mesh: true
     ssx_chip_collection: false
