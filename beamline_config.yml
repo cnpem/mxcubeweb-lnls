@@ -29,6 +29,7 @@ objects:
   - beamline_actions: beamline_actions.yaml
   - collect: mxcollect.yaml
   - safety_shutter: safety_shutter.yaml
+  - xrf_spectrum: xrf.yaml
 
 configuration:
   advanced_methods:
