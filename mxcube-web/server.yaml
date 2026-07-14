@@ -16,6 +16,11 @@ sso:
   CLIENT_ID: _ENV_CLIENT_ID
 
 mxcube:
+  VIDEO_FORMAT: MPEG1
+  VIDEO_STREAM_URL: ws://10.20.66.56:8000/ws
+  VIDEO_STREAM_PORT: 8000
+  # Start OAV stream from MXCuBE process
+  MXCUBE_STARTS_VIDEO_STREAM: true
   mode: OSC
   SESSION_REFRESH_INTERVAL: 9000
   usermanager:

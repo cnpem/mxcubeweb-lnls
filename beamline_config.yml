@@ -26,7 +26,6 @@ objects:
   - safety_shutter: safety_shutter.yaml
   - detector: detector.yaml
   - beam: beam.yaml
-  - sample_changer: sample_changer.yaml
   - bluesky: bluesky.yaml
   - cryo: cryo.yaml
   - energy: energy.yaml
@@ -41,7 +40,7 @@ objects:
   # - harvester: harvester.xml
   # - harvester_maintenance: harvester_maintenance.xml
 
-  - diffractometer: minidiff.yaml
+  - diffractometer: diffractometer.yaml
   - lims: lims.yaml
   - sample_view: sample_view.yaml
   - queue_manager: queue_manager.yaml
@@ -50,6 +49,7 @@ objects:
   - flux: flux.yaml
 
   # Procedures:
+  - sample_changer: sample_changer.yaml
   - beamline_actions: beamline_actions.yaml
   - collect: mxcollect.yaml
 

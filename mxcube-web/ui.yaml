@@ -5,7 +5,13 @@ sample_list_view_modes:
     - id: table_view
       show: true
     - id: graphical_view
-      show: false
+      show: true
+
+sample_view:
+  id: sample_view
+  components:
+    - attribute: beam_size
+      label: Beam size
 
 sample_view_motors:
   id: sample_view_motors
@@ -65,7 +71,7 @@ sample_view_video_controls:
     - id: snapshot
       show: false
     - id: draw_grid
-      show: false
+      show: true
       show_vspace: false
       show_hspace: true
     - id: click_centring
