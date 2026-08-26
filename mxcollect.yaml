@@ -7,5 +7,6 @@ epics:
       full_file_name:
         suffix: "FullFileName_RBV"
 configuration:
+  multi_crystals: true
   auto_processing:
     program: []

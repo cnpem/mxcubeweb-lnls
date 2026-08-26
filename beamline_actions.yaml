@@ -4,4 +4,5 @@ class: LNLS.LNLSBeamlineActions.LNLSBeamlineActions
 configuration:
   commands: [{"type": "controller", "name": "Soak", "command": "HardwareObjects.LNLS.LNLSBeamlineActions.Soak"},
             {"type": "controller", "name": "Dry", "command": "HardwareObjects.LNLS.LNLSBeamlineActions.Dry"},
-            {"type": "controller", "name": "Home", "command": "HardwareObjects.LNLS.LNLSBeamlineActions.Home"},]
+            {"type": "controller", "name": "Home", "command": "HardwareObjects.LNLS.LNLSBeamlineActions.Home"},
+            {"type": "controller", "name": "Detect Crystals", "command": "HardwareObjects.LNLS.LNLSBeamlineActions.DetectCrystals"},]
