@@ -2,13 +2,13 @@
 ---
 class: LNLS.EPICS.EPICSActuator.LNLSEnergy
 epics:
-  "MNC:A:DCM01:":
+  "":
     channels:
       rbv:
-        suffix: "GonRx_Energy_RBV"
+        suffix: "MNC:B:LUCIOLE01:LIGHT_CH1"
         polling_period: 200
       val:
-        suffix: "Energy_SP"
+        suffix: "MNC:B:LUCIOLE01:LIGHT_CH1"
 configuration:
   tolerance: 0.01
   plan_name: "move_energy_and_phase"

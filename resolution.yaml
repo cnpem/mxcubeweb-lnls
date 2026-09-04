@@ -1,8 +1,8 @@
 %YAML 1.2
 ---
-class: LNLS.EPICS.EPICSMotor.ResolutionVirtualMotor
+class: LNLS.EPICS.EPICSMotor.EPICSMotor
 epics:
-  "MNC:B:SoftIOC:Resolution":
+  "MNC:B:PB05:m1":
     channels:
       '':
 configuration:

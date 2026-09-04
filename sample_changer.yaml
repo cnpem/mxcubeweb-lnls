@@ -6,16 +6,108 @@ epics:
     channels:
         get_loop:
           suffix: "GetLoop"
-        puck_id_1:
-          suffix: "PuckID1"
-        puck_id_2:
-          suffix: "PuckID2"
-        puck_id_3:
-          suffix: "PuckID3"
   "MNC:B:SoftIOC:SP:1:SampPres_RBV":
     channels:
       sample_present:
         suffix : ""
+  "MNC:B:SAMPLE":
+    channels:
+      sample_1:
+        suffix: "1:NAME"
+      sample_2:
+        suffix: "2:NAME"
+      sample_3:
+        suffix: "3:NAME"
+      sample_4:
+        suffix: "4:NAME"
+      sample_5:
+        suffix: "5:NAME"
+      sample_6:
+        suffix: "6:NAME"
+      sample_7:
+        suffix: "7:NAME"
+      sample_8:
+        suffix: "8:NAME"
+      sample_9:
+        suffix: "9:NAME"
+      sample_10:
+        suffix: "10:NAME"
+      sample_11:
+        suffix: "11:NAME"
+      sample_12:
+        suffix: "12:NAME"
+      sample_13:
+        suffix: "13:NAME"
+      sample_14:
+        suffix: "14:NAME"
+      sample_15:
+        suffix: "15:NAME"
+      sample_16:
+        suffix: "16:NAME"
+      sample_17:
+        suffix: "17:NAME"
+      sample_18:
+        suffix: "18:NAME"
+      sample_19:
+        suffix: "19:NAME"
+      sample_20:
+        suffix: "20:NAME"
+      sample_21:
+        suffix: "21:NAME"
+      sample_22:
+        suffix: "22:NAME"
+      sample_23:
+        suffix: "23:NAME"
+      sample_24:
+        suffix: "24:NAME"
+      sample_25:
+        suffix: "25:NAME"
+      sample_26:
+        suffix: "26:NAME"
+      sample_27:
+        suffix: "27:NAME"
+      sample_28:
+        suffix: "28:NAME"
+      sample_29:
+        suffix: "29:NAME"
+      sample_30:
+        suffix: "30:NAME"
+      sample_31:
+        suffix: "31:NAME"
+      sample_32:
+        suffix: "32:NAME"
+      sample_33:
+        suffix: "33:NAME"
+      sample_34:
+        suffix: "34:NAME"
+      sample_35:
+        suffix: "35:NAME"
+      sample_36:
+        suffix: "36:NAME"
+      sample_37:
+        suffix: "37:NAME"
+      sample_38:
+        suffix: "38:NAME"
+      sample_39:
+        suffix: "39:NAME"
+      sample_40:
+        suffix: "40:NAME"
+      sample_41:
+        suffix: "41:NAME"
+      sample_42:
+        suffix: "42:NAME"
+      sample_43:
+        suffix: "43:NAME"
+      sample_44:
+        suffix: "44:NAME"
+      sample_45:
+        suffix: "45:NAME"
+      sample_46:
+        suffix: "46:NAME"
+      sample_47:
+        suffix: "47:NAME"
+      sample_48:
+        suffix: "48:NAME"
 configuration:
   no_of_baskets: 3
   no_of_samples_in_basket: 16
