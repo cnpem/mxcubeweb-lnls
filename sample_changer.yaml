@@ -6,6 +6,12 @@ epics:
     channels:
         get_loop:
           suffix: "GetLoop"
+        puck_id_1:
+          suffix: "PuckID1"
+        puck_id_2:
+          suffix: "PuckID2"
+        puck_id_3:
+          suffix: "PuckID3"
   "MNC:B:SoftIOC:SP:1:SampPres_RBV":
     channels:
       sample_present:

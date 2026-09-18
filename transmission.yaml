@@ -1,17 +1,14 @@
 %YAML 1.2
 ---
-class: LNLS.EPICS.EPICSActuator.EPICSActuator
+class: LNLS.LNLSTransmission.LNLSTransmission
 epics:
-  "":
+  "MNC:B:TRANSMISSION:":
     channels:
-      rbv:
-        suffix: "MNC:B:LUCIOLE01:LIGHT_CH1"
-        polling_period: 200
-      val:
-        suffix: "MNC:B:LUCIOLE01:LIGHT_CH1"
+    rbv:
+      suffix: "RBV"
+      polling_period: 200
+    val:
+      suffix: "SET"
 configuration:
-  tolerance: 0.01
-  plan_name: "move_energy_and_phase"
-  plan_parameter: "energy"
-  default_limits: (5, 20)
-
+  tolerance: 0.5
+  default_limits: (0, 100)

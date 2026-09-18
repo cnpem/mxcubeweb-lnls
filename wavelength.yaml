@@ -2,9 +2,11 @@
 ---
 class: LNLS.EPICS.EPICSMotor.EPICSActuator
 epics:
-  "MNC:B:PB05:m1.RBV":
+  "SWC:MOTORS:m1.VAL":
     channels:
-      '':
+      rbv:
+        suffix: ""
+        polling_period: 200
 configuration:
   default_limits: (0, 70)
   read_only: true
