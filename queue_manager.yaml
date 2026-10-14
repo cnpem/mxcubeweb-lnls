@@ -1,4 +1,6 @@
 %YAML 1.2
 ---
 class: LNLS.LNLSQueueManager.LNLSQueueManager
-configuration: {}
+configuration:
+  site_entry_path: LNLS
+  available_centring_options: MANUAL,LOOP,FULLY_AUTOMATIC,NONE

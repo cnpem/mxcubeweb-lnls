@@ -1,7 +1,13 @@
 %YAML 1.2
 ---
 class: LNLS.LNLSSampleView.LNLSSampleView
+epics:
+  "MNC:B:BZOOM:image1:ArrayData":
+    channels:
+      camera_raw_image:
+        suffix: ""
 configuration:
   centring_motors: ["omega", "phiy", "phiz", "sampx", "sampy"]
+  crystal_detection_url: "http://10.31.74.59:5000/detect"
 objects:
   camera: md_camera.yaml

@@ -102,11 +102,8 @@ configuration:
 
   available_methods:
     datacollection: true
-    characterisation: false
     helical: true
     xrf_spectrum: true
     energy_scan: true
     mesh: true
-    ssx_chip_collection: false
-    gphlworkflow: false
-    test_collection: false
+    lnls_multi_crystals_collection: true
