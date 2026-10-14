@@ -5,7 +5,13 @@ sample_list_view_modes:
     - id: table_view
       show: true
     - id: graphical_view
-      show: false
+      show: true
+
+sample_view:
+  id: sample_view
+  components:
+    - attribute: beam_size
+      label: Beam size
 
 sample_view_motors:
   id: sample_view_motors
@@ -65,7 +71,7 @@ sample_view_video_controls:
     - id: snapshot
       show: false
     - id: draw_grid
-      show: false
+      show: true
       show_vspace: false
       show_hspace: true
     - id: click_centring
@@ -91,37 +97,42 @@ beamline_setup:
       step: 0.1
       precision: 1
       suffix: "%"
+    - label: Detector Distance
+      attribute: detector_distance
+      step: 0.001
+      precision: 3
+      suffix: "mm"
+    - label: Energy
+      attribute: energy
+      step: 0.1
+      precision: 3
+      suffix: "keV"
+    - label: Phase
+      attribute: phase
+      step: 0.1
+      precision: 3
+      suffix: "mm"
     - label: Flux
       attribute: flux
       step: 0.1
       precision: 1
       suffix: "ph/s"
       format: expo
-    - label: Cryo
-      attribute: cryo
-      step: 0.1
-      precision: 1
-      suffix: "K"
-    - label: Energy
-      attribute: energy
-      step: 0.1
-      precision: 3
-      suffix: "keV"
-    - label: Wavelength
-      attribute: wavelength
-      step: 0.1
-      precision: 4
-      suffix: "Å"
-    - label: Detector Distance
-      attribute: detector_distance
-      step: 0.001
-      precision: 3
-      suffix: "mm"
     - label: Resolution
       attribute: resolution
       step: 0.001
       precision: 3
       suffix: "Å"
+    - label: Wavelength
+      attribute: wavelength
+      step: 0.1
+      precision: 4
+      suffix: "Å"
+    - label: Cryo
+      attribute: cryo
+      step: 0.1
+      precision: 1
+      suffix: "K"
 
 camera_setup:
   id: camera_setup
