@@ -1,16 +1,12 @@
-%YAML 1.2
----
 class: LNLS.EPICS.EPICSActuator.LNLSEnergy
 epics:
-  "MNC:A:DCM01:":
+  "":
     channels:
       rbv:
-        suffix: "GonRx_Energy_RBV"
+        suffix: "SWC:MOTORS:m1.VAL"
         polling_period: 200
       val:
-        suffix: "Energy_SP"
+        suffix: "SWC:MOTORS:m1.VAL"
 configuration:
   tolerance: 0.01
   plan_name: "move_energy_and_phase"
-  plan_parameter: "energy"
-  default_limits: (5, 20)

@@ -2,7 +2,7 @@
 ---
 class: LNLS.EPICS.EPICSActuator.EPICSActuator
 epics:
-  "MNC:B:PICO02:FluxCividec":
+  "SWC:MOTORS:m2.SET":
     channels:
       rbv:
         suffix: ""
