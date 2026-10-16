@@ -4,3 +4,4 @@ class: LNLS.LNLSQueueManager.LNLSQueueManager
 configuration:
   site_entry_path: LNLS
   available_centring_options: MANUAL,LOOP,FULLY_AUTOMATIC,NONE
+  pause_before_centring: false
