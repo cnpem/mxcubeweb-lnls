@@ -2,7 +2,7 @@
 ---
 class: LNLS.EPICS.EPICSMotor.EPICSActuator
 epics:
-  "SWC:MOTORS:m1.VAL":
+  "MNC:B:SoftIOC:Resolution:Wavelength_RBV":
     channels:
       rbv:
         suffix: ""

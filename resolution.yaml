@@ -2,7 +2,7 @@
 ---
 class: LNLS.EPICS.EPICSMotor.ResolutionVirtualMotor
 epics:
-  "MNC:B:PB05:m1":
+  "MNC:B:SoftIOC:Resolution":
     channels:
       '':
 configuration:
